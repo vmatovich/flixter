@@ -1,16 +1,15 @@
 @import "bootstrap";
 
-.navbar {
 
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  
-  font-size: 24px;
-  
-  font-style: normal;
-  
-  font-variant: normal;
-  
+.navbar {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url('Clouds.jpg');
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
-  
-  line-height: 26.4px;
+  color: black;
 }

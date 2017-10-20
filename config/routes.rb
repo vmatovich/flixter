@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   namespace :instructor do
 
-    resources :courses, only: [:new, :create, :show]
+    resources :courses, only: [:new, :create, :show, :index]
 
   end
 

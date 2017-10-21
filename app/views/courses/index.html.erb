@@ -10,6 +10,8 @@
 
     <h2 class="text-center"><%= course.title %></h2>
 
+      <%= link_to course.title, course_path(course) %>
+
     <br />
 
     <div class="row">
@@ -22,7 +24,7 @@
 
     <div class="col-sm-4 col-12 text-center">
 
-      <%= link_to 'Button', '#', class: 'btn btn-primary btn-large' %>
+      <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
 
     </div>
 

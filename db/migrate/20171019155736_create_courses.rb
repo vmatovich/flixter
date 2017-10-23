@@ -17,4 +17,5 @@ class CreateCourses < ActiveRecord::Migration[5.0]
     add_index :courses, :user_id
 
   end
+  
 end

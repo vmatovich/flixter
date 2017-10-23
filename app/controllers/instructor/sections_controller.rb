@@ -14,7 +14,7 @@ class Instructor::SectionsController < ApplicationController
 
     @section = @course.sections.create(sections_params)
 
-    redirect_to instrcutor_course_path(@course)
+    redirect_to instructor_course_path(@course)
 
   end
 

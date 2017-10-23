@@ -7,5 +7,23 @@ class Instructor::SectionsController < ApplicationController
     @section = Section.new
 
   end
+
+  def create
+
+    @course = Course.find(params[:course_id])
+
+    @section = @course.sections.create(sections_params)
+
+    redirect_to instrcutor_course_path(@course)
+
+  end
+
+  private
+
+  def sections_params
+
+    params.require(:section).permit(:title)
+
+  end
   
 end

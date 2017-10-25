@@ -1,5 +1,7 @@
 <br />
 
+
+
 <div class="booyah-box col-10 offset-1">
 
   <h1><%= @course.title %></h1>
@@ -34,6 +36,35 @@
 
   </div>
 
-</div>a
+</div>
+
+<div class="col-12">
+
+  <% @course.sections.each do |section| %>
+
+    <div> class="section">
+
+      <%= section.title %>
+
+      <% section.lessons.each do |lesson| %>
+
+        <div class="lesson">
+
+          <b><%= lesson.title %></b>
+
+          -
+
+          <%= lesson.subtitle %>
+
+        </div>
+
+      <% end %>
+
+    </div>
+
+  <% end %>
+
+</div>
+
 
 </div>

@@ -50,11 +50,15 @@
 
         <div class="lesson">
 
+          <%= link_to lesson_path(lesson) do %>
+
           <b><%= lesson.title %></b>
 
           -
 
           <%= lesson.subtitle %>
+
+          <% end %>
 
         </div>
 

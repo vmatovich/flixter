@@ -3,6 +3,10 @@ class Course < ApplicationRecord
   belongs_to :user
 
   has_many :sections
+  
+
+  mount_uploader :image, Imageuploader
+
 
   validates :title, presence: true
 

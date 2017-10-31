@@ -4,6 +4,8 @@ class Course < ApplicationRecord
 
   has_many :sections
 
+  has_many :enrollments
+
 
   mount_uploader :image, ImageUploader
 

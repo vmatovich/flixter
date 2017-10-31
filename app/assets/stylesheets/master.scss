@@ -42,7 +42,7 @@ body {
 }
 
 .hero {
-   background: image_url('hero.jpg') no-repeat center center fixed;
+   background: image_url('rise.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -109,3 +109,51 @@ h1, h2, h3, h4, h5, h6, .navbar {
   border-radius: 4px;
 }
 
+.gleam {
+  
+  font-family: 'Mr Dafoe', Myriad;
+
+  color: black;
+
+  font-size: 200%;
+}
+
+.lesson {
+  
+  background-color: black;
+
+  margin-top: 10px;
+
+  height: 130px;
+
+  font-size: 15px;
+
+}
+
+.section {
+  
+  border: 1px solid;
+
+  border-color: #e4e4e4 #bebebd #e4e4e4;
+
+  padding: 20px;
+
+}
+
+.lesson a {
+  
+  color: white;
+
+  font-family: "Helvetica Neue", Helvetica;
+
+  font-weight:100;
+
+}
+
+.lesson a b {
+  
+  font-weight: 100;
+
+  font-size: 25px;
+
+}

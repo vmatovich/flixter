@@ -33,12 +33,23 @@ body {
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
   background: image_url('Clouds.jpg');
+  color: black;
 }
 
 .navbar-inverse a.navbar-brand {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
   color: black;
+}
+
+.navbar-brand a {
+  
+  color: #708090;
+
+  padding-top: 10px;
+
+  font-size: 85%;
+
 }
 
 .hero {
@@ -116,6 +127,10 @@ h1, h2, h3, h4, h5, h6, .navbar {
   color: black;
 
   font-size: 200%;
+
+  padding-right: 20px;
+
+  padding-left: 10px;
 }
 
 .lesson {
@@ -156,4 +171,11 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
   font-size: 25px;
 
+}
+
+.instructor-footer {
+  
+  color: #BC8F8F;
+
+  font-size: 120%;
 }
